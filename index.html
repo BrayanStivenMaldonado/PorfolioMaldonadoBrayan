@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="bg-animation">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='stars4'></div>
+    </div><!-- / STAR ANIMATION -->
+
 <!-- ENCABEZADO -->
 <div class="contenedor-header">
     <header>
@@ -21,24 +29,31 @@
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Skills</a></li>
                 <li><a href="#sobre ">Sobre mi</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mailto:stivenmaldonado0805@gmail.com">Contacto</a></li>
             </ul>
         </nav>
+        <div class="DescargarCV">
+            <i class="fa-solid fa-file-arrow-down fa-xl"></i>
+            <p><a href="example.pdf" download>Descargar CV</a></p>
+        </div>
+        <div class="CambiarModo">
+            <i class="fa-solid fa-sun fa-2xl" style="color: #73a8d0;"></i>
+        </div>
         <div class="nav-responsive">
             <i class="fa-solid fa-bars"></i>
         </div>
     </header>
 </div>
-
+  
 <!-- INICIO-->
 <div class="contenedor-inicio">
     <section id="inicio" class="inicio">
         <div class="contenedor-img">
-            <img src="./src/WhatsApp Image 2025-03-09 at 4.51.53 PM.jpeg" alt="#">
+            <img src="" alt="#">
         </div>
         <div class="contenedor-text">
-            <p id="hola">Hola, Soy Stiven <br><span id="fsd">FullStack Developer</span></p>
-            <hr id="linea" width="30%;" color="#dc20b0" size="5">
+            <p id="hola">Hola, Soy Stiven <br><span id="fsd">FullStack Developer Junior</span></p>
+            <hr id="linea" width="30%;" color="#73a8d0" size="5">
             <p id="descripcion">Apasionado en todo lo que hago, dispuesto
             a enfrentar desafios, amante de todo lo que involucre tecnología e innovación.
             Me caracteriza mi capacidad de aprendizaje y la adaptabilidad a cualquier
@@ -49,7 +64,7 @@
                 <p>ㅤ</p>
                 <a href="https://www.linkedin.com/in/stiven-maldonado-465711338/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>   
             </div>
-            <hr id="linea2" width="30%;" color="#dc20b0" size="5">
+            <hr id="linea2" width="30%;" color="#73a8d0" size="5">
         </div>
     </section>
 </div>
@@ -57,8 +72,8 @@
 <!--PROYECTOS-->
 <div class="contenedor-proyectos">
     <section id="proyectos" class="proyectos">
+        <p id="tituloProyectos"><span id="loguito"><i class="fa-solid fa-code" style="color: #73a8d0"></i></span> Proyectos</p>
         
-        <p id="pink" id="tituloProyectos"><i class="fa-solid fa-code" style="color: #dc20b0"></i> Proyectos</p>
         <div class="contenedorProyectos">
             <div class="tarjetaProyecto">
                 <div class="contenedorImagenP">
@@ -107,31 +122,50 @@
 <!--Habilidades-->
 <div class="contenedor-habilidades">
     <section id="habilidades" class="habilidades">
-        <p id="pink"><i class="fa-regular fa-lightbulb"></i></i> Skills</p>
+        <p id=""><i class="fa-regular fa-lightbulb " style="color: #73a8d0"></i></i> Skills</p>
         <div class="contenedorLogos">
-            <img src="./src/python.png" alt="#">
-            <img src="./src/html5.png" alt="">
-            <img src="./src/css.png" alt="">
-            <img src="./src/js.png" alt="">
-            <img src="./src/mysql.png" alt="">
-            <img src="./src/java.png" alt="">
+            <img id="python" src="./src/python.png" alt="#">
+            <img id="html" src="./src/html5.png" alt="">
+            <img id="css" src="./src/css.png" alt="">
+            <img id="js" src="./src/js.png" alt="">
+            <img id="mysql" src="./src/mysql.png" alt="">
+            <img id="java" src="./src/java.png" alt="">
+            <img id="postgre" src="./src/postgre.png" alt="">
+            <img id="springboot" src="./src/springboot.png" alt="">
+            <img id="github" src="./src/github.png" alt="">
+            <img id="figma" src="./src/figma.png" alt="">
         </div>
     </section>
 </div>
 
 <!--Sobre mi-->
 <div class="contenedor-sobremi">
+    <p id="">Sobre mí</p>
     <section id="sobre" class="sobre">
-        <p id="pink"> Un poco más sobre mí</p>
+
+        <div class="contenedorImagenSobremi">
+            <img src="src/pictureMe.png" alt="">
+        </div>
         <div class="contenedorTextoSobremi">
-            <hr id="linea3" width="70%;" color="#dc20b0" size="5">
-            <p>ㅤ</p>
-            Soy un programador junior apasionado por todo lo que tiene que ver con la tecnología y el desarrollo web. Cuento con experiencia en HTML, CSS y JavaScript, lo cual me permite crear interfaces atractivas y funcionales para los usuarios. <br><br>
+            Soy un programador FullStack junior apasionado por todo lo que tiene que ver con la tecnología y el desarrollo web. Cuento con experiencia en HTML, CSS y JavaScript, lo cual me permite crear interfaces atractivas y funcionales para los usuarios. <br><br>
             Tengo conocimientos en sistemas de gestión de bases de datos, como MySQL, PostgreSQL, lo que me permite diseñar y gestionar bases de datos eficaces para respaldar proyectos dinámicos y escalables.
             Me gusta estar aprendiendo continuamente y perfeccionando mis habilidades, enfocado en poder crear soluciones innovadoras a los desafios que se presenten. <br> <br>
             Me interesa colaborar en proyectos desafiantes, trabajar en equipo y seguir avanzando en mi carrera como desarrollador de software. Busco oportunidades para poder contribuir con mis habilidades.
             <p>ㅤ</p>
-            <hr id="linea3" width="70%;" color="#dc20b0" size="5">
+            <hr id="linea3" width="70%;" color="#73a8d0" size="5">
+        </div>
+    </section>
+</div>
+<!--Contacto-->
+<div class="contenedor-contacto">
+    <section id="contacto" class="contacto">
+        <p id="pie">@2025 Stiven Maldonado y Campuslands. todos los derechos reservados</p>
+        <div class="contenedor-iconos2">
+            <a href="https://github.com/BrayanStivenMaldonado" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-xl" ></i></a>
+            <p>ㅤ</p>
+            <a href="https://www.linkedin.com/in/stiven-maldonado-465711338/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>   
+            <p>ㅤ</p>
+            <a href="mailto:stivenmaldonado0805@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
         </div>
     </section>
 </div>
